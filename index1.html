@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- relacionar páginas -->
+   <script src="https://kit.fontawesome.com/0fc0c92e29.js" crossorigin="anonymous"></script>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="styles.css">
+ </head>
+ <body>
+    <!-- Navbar, logo camara, logo palabra, boton verde crear y settings  -->
+       <nav class="navbar navbar-expand-lg bg-light">
+         <div class="container">
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+             <a class="navbar-brand" href="#"><i class="fa-brands fa-instagram"></i></a>
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+                 <!-- <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.stickpng.com%2Fes%2Fimg%2Ficonos-logotipos-emojis%2Fcompanias-technologicas%2Flogo-texto-instagram&psig=AOvVaw0rPyTnIq5856ZrsIRkKx-_&ust=1653642061518000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCJDn5e_m_PcCFQAAAAAdAAAAABAD/80/30" alt=""> -->
+                 <a class="nav-link active" aria-current="page" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Smooch&display=swap" rel="stylesheet">Instagram</a>
+               </li>
+             </ul>
+             <!-- Navbar-botones de la derecha -->
+             <form class="d-flex" role="search">
+               <div class="btn-group">
+                 <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                   Create new post
+                 </button>
+                 <div class="dropdown">
+                   <button class="btn btn btn-light dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                     <i class="fa-solid fa-gear"></i>
+                   </button>
+                   <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                     <li><button class="dropdown-item" type="button">Action</button></li>
+                     <li><button class="dropdown-item" type="button">Another action</button></li>
+                     <li><button class="dropdown-item" type="button">Something else here</button></li>
+                     <li><hr class="dropdown-divider"></li>
+                     <li><a class="dropdown-item" href="#">Log out</a></li>
+                   </ul>
+                 </div>
+               </div>
+             </form>
+           </div>
+         </div>
+       </nav>
+    <!-- botones cambio de página -->
+<nav>
+    <div class="nav nav-tabs nav justify-content-center" id="nav-tab" role="tablist" >
+      <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><i class="fa-solid fa-border-all"></i></i></button>
+      <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><i class="fa-solid fa-border-all"></i></button>
+    </div>
+  </nav>
+  <!--  desplazamiento -->
+<nav id="navbar-example2" class="navbar bg-light px-3">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+      </li>
+      <li class="nav-item">
+      </li>
+    </ul>
+  </nav>
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+    <!-- Carrusel de imágenes -->
+    <div class="card">
+        <div class="card-header">
+            <h4 class="titulo">Mi primera foto</h4>
+            <button type="button" class="btn btn-link">12/14</button>
+        </div>
+        <img src="https://placebeard.it/400x200" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">23 Likes</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <button type="button" class="btn btn-light btn-sm">
+                <i class="far fa-heart"></i>
+            </button>
+            <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
+            <button type="button" class="btn btn-light btn-sm">
+                <i class="fas fa-ellipsis-v"></i>
+            </button>
+        </div>
+    </div>
+    <h4 id="scrollspyHeading1"></h4>
+    <p>...</p>
+</div>
+</body>
+</html>
